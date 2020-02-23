@@ -111,8 +111,8 @@ html, body {
     left: 100%;
     width: 100%;
     padding-top: 40px;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 5px;
+    padding-left: 5px;
     overflow-y: auto;
     visibility: hidden;
     background-color: #0F4C81;
@@ -122,8 +122,12 @@ html, body {
   }
 
   .offcanvas-collapse.open {
-    left: 65%;
+    left: 55%;
     visibility: visible;
+  }
+
+  .navbar-toggler{
+    border: outset;
   }
 
   .exit-canva{
@@ -131,13 +135,16 @@ html, body {
     width: 4% ;
     color: white;
     margin-bottom: 20px;
+    margin-left: 15px;
   }
 
   .navbar-csl{
+    margin-top: -30px;
     margin-right: 20px;
   }
 
   .logo{
+    width: 70%;
     margin-left: 20px;
   }
   
@@ -160,7 +167,7 @@ html, body {
   }
 
   h1{
-    font-size: 45px;
+    font-size: 30px;
   }
 
   h2{
@@ -168,6 +175,7 @@ html, body {
   }
 
   .cta{
-      margin-left: 30px;
+    margin-top: 1px;
+    margin-left: 30px;
   }
 }
