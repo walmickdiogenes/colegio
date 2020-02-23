@@ -103,7 +103,7 @@ html, body {
 }
 
   
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
   .offcanvas-collapse {
     position: fixed;
     top: 0; /* Altura da navbar */
@@ -122,12 +122,16 @@ html, body {
   }
 
   .offcanvas-collapse.open {
-    left: 55%;
+    left: 45%;
     visibility: visible;
   }
 
   .navbar-toggler{
     border: outset;
+    position: absolute;
+    display: block;
+    top: 45px;
+    right: 0px;
   }
 
   .exit-canva{
@@ -139,8 +143,8 @@ html, body {
   }
 
   .navbar-csl{
-    margin-top: -30px;
-    margin-right: 20px;
+    margin-top: -40px;
+    margin-right: 15px;
   }
 
   .logo{
@@ -176,6 +180,6 @@ html, body {
 
   .cta{
     margin-top: 1px;
-    margin-left: 30px;
+    margin-left: 25px;
   }
 }
