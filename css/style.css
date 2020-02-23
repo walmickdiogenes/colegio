@@ -1,0 +1,173 @@
+@font-face{
+    font-family: home-bold;
+    src: url('font/HomepageBaukasten-Bold.otf');
+}
+  
+  @font-face{
+    font-family: home-book;
+    src: url('font/HomepageBaukasten-Book.otf');
+}
+
+h1{
+    font-family: home-bold;
+    font-size: 65px;
+    color: #000000;
+}
+  
+h2{
+    font-family: home-book;
+    font-size: 25px;
+    color: #A0A0A0;
+}
+
+.logo{
+    width: 248.944px;
+    height: 104.595px;
+    margin-left: 100px;
+}
+
+.navbar-csl{
+    position: relative;
+    font-family: home-bold;
+    font-size: 23px;
+    z-index: 1;
+    margin-right: 100px;
+    margin-top: -15px;
+}
+
+.nav-link{
+    margin-left: 15px;
+    color: white !important;
+
+}
+
+.nav-link:hover{
+    color: #F1D135 !important;
+}
+
+html, body {
+  overflow-x: hidden; /* Previne rolagem, em dispositivos estreitos */
+}
+
+.exit-canva{
+    visibility: hidden;
+}
+
+.img-header1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 45%;
+}
+
+.img-header2{
+    display: none;
+}
+
+.img-student {
+    -webkit-animation: slide-up 0.8s ease-in-out both;
+    animation: slide-up 0.8s ease-in-out both;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    height: 110%;
+    z-index: 1;
+}
+
+.cta{
+    margin-left: 100px;
+    margin-top: 5%; 
+}
+
+.btn-cta{
+    font-family: home-bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 0px 15px;
+    background-color: #D36754;
+    box-shadow: 5px 5px 25px -10px #979696;
+    display: inline-block;
+    cursor: pointer;
+    height: 60px;
+    width: 230px;
+    text-align: center;
+    text-align: center;
+}
+
+.btn-cta:hover{
+    background-color: #AD5C49;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+
+  
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 0; /* Altura da navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #0F4C81;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    transition-property: left, visibility;
+  }
+
+  .offcanvas-collapse.open {
+    left: 65%;
+    visibility: visible;
+  }
+
+  .exit-canva{
+    visibility: visible;
+    width: 4% ;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .navbar-csl{
+    margin-right: 20px;
+  }
+
+  .logo{
+    margin-left: 20px;
+  }
+  
+  .img-header1{
+    display: none;
+  }
+
+  .img-header2{
+    position: absolute;
+    display: block;
+    width: 50%;
+    top: 0px;
+    right: 0px;
+  }
+
+  .img-student{
+    display: block;
+    width: 60%;
+    z-index: -1;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  .cta{
+      margin-left: 30px;
+  }
+}
