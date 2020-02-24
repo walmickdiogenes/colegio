@@ -3,45 +3,57 @@
     src: url('font/HomepageBaukasten-Bold.otf');
 }
   
-  @font-face{
-    font-family: home-book;
-    src: url('font/HomepageBaukasten-Book.otf');
+@font-face{
+  font-family: home-book;
+  src: url('font/HomepageBaukasten-Book.otf');
 }
 
 h1{
-    font-family: home-bold;
-    font-size: 65px;
-    color: #000000;
+  font-family: home-bold;
+  font-size: 65px;
+  color: #000000;
 }
   
 h2{
-    font-family: home-book;
-    font-size: 25px;
-    color: #A0A0A0;
+  font-family: home-book;
+  font-size: 25px;
+  color: #A0A0A0;
+}
+
+h3{
+  font-family: home-bold;
+  font-size: 45px;
+  color: #000000;
+}
+
+h4{
+  font-family: home-book;
+  font-size: 19.5px;
+  color: #A0A0A0;
 }
 
 .logo{
-    width: 248.944px;
-    height: 104.595px;
-    margin-left: 100px;
+  width: 248.944px;
+  height: 104.595px;
+  margin-left: 100px;
 }
 
 .navbar-csl{
-    position: relative;
-    font-family: home-bold;
-    font-size: 20px;
-    z-index: 1;
-    margin-right: 80px;
-    margin-top: -15px;
+  position: relative;
+  font-family: home-bold;
+  font-size: 20px;
+  z-index: 1;
+  margin-right: 80px;
+  margin-top: -15px;
 }
 
 .nav-link{
-    margin-left: 10px;
-    color: white !important;
+  margin-left: 10px;
+  color: white !important;
 }
 
 .nav-link:hover{
-    color: #F1D135 !important;
+  color: #F1D135 !important;
 }
 
 html, body {
@@ -49,58 +61,89 @@ html, body {
 }
 
 .exit-canva{
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .img-header1{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 45%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 45%;
 }
 
 .img-header2{
-    display: none;
+  display: none;
 }
 
 .img-student {
-    -webkit-animation: slide-up 0.8s ease-in-out both;
-    animation: slide-up 0.8s ease-in-out both;
-    position: absolute;
-    top: 20%;
-    right: 0px;
-    height: 110%;
-    z-index: 1;
+  -webkit-animation: slide-up 0.8s ease-in-out both;
+  animation: slide-up 0.8s ease-in-out both;
+  position: absolute;
+  top: 18%;
+  right: 0px;
+  height: 100%;
+  z-index: 1;
 }
 
 .cta{
-    margin-left: 110px;
-    margin-top: 3%; 
+  margin-left: 110px;
+  margin-top: 3%; 
 }
 
 .btn-cta{
-    font-family: home-bold;
-    font-size: 20px;
-    color: white;
-    border-radius: 70px;
-    padding: 15px 0px 15px;
-    background-color: #D36754;
-    box-shadow: 5px 5px 25px -10px #979696;
-    display: inline-block;
-    cursor: pointer;
-    height: 60px;
-    width: 230px;
-    text-align: center;
-    margin-top: 20px;
+  font-family: home-bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 70px;
+  padding: 15px 0px 15px;
+  background-color: #D36754;
+  box-shadow: 5px 5px 25px -10px #979696;
+  display: inline-block;
+  cursor: pointer;
+  height: 60px;
+  width: 230px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .btn-cta:hover{
-    background-color: #AD5C49;
-    color: white;
-    text-decoration: none;
-    position: absolute;
+  font-family: home-bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 70px;
+  padding: 15px 0px 15px;
+  background-color: #AD5C49;
+  box-shadow: 5px 5px 25px -10px #979696;
+  display: inline-block;
+  cursor: pointer;
+  height: 60px;
+  width: 230px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
+.historia{
+  position: relative;
+  margin-top: 200px;
+  align-items: center;
+  z-index: 1;
+  width: 800px;
+  margin-left: 110px;
+}
+
+.title-hist{
+  position: relative;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.img-hist{
+  position: relative;
+  margin-top: 315px;
+  z-index: 1;
+  margin-left: 10px;
+}
   
 @media (max-width: 768px) {
   .offcanvas-collapse {
@@ -165,9 +208,9 @@ html, body {
 
   .img-student{
     display: block;
-    width: 60%;
+    width: 80%;
     z-index: -1;
-    top: 5%;
+    top: 23%;
   }
 
   h1{
@@ -176,6 +219,14 @@ html, body {
 
   h2{
     font-size: 15px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h4{
+    font-size: 12px;
   }
 
   .cta{
@@ -189,6 +240,27 @@ html, body {
     width: 115px;
     margin-top: 5px;
     padding-top: 12px;
+  }
+
+  .btn-cta:hover{
+    font-size: 10px;
+    height: 40px;
+    width: 115px;
+    margin-top: 5px;
+    padding-top: 12px;
+  }
+
+  .historia{
+    margin-top: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+
+  .sobre{
+    
+    order: 2;
+    
   }
 
 }
